@@ -1,0 +1,47 @@
+.titulo 
+{
+    color: black;
+    font-size: 30px;
+    font-family: Copperplate, "Copperplate Gothic Light"
+}
+
+.fruta
+{
+    font-size: 20px;
+    margin: 10px;
+}
+
+.carne
+{
+    font-size: 20px;
+    margin: 10px;
+}
+
+.verdura
+{
+    font-size: 20px;
+    margin: 10px;
+}
+
+.elemento
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+li
+{
+    font-family: Copperplate, "Copperplate Gothic Light";
+}
+
+p
+{
+    font-size: 30px;
+    color: rgb(126, 58, 3);
+}
+
+table, td, tr
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}

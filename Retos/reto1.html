@@ -7,27 +7,53 @@
         <title>Reto 1. Lista de compras</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="./style.css">
     </head>
     <body>
-        <h1>Soy la lista del super!</h1>
+        <h1 class="titulo">Soy la lista del super!</h1>
         <ul>
-            <li>Frutas</li>
+            <li class="fruta">Frutas</li>
             <ol>
-                <li>Manzana</li>
-                <li>Plátano</li>
+                <li class="elemento">Manzana <a href="https://www.recetasnestle.com.mx/recetas/manzanas-con-canela"><img src="./imagenes/manzana.png" width="30" height="30"></a></li>
+                
+                <li class="elemento">Plátano <a href="https://www.recetasnestle.com.mx/recetas/manzanas-con-canela"><img src="./imagenes/platano.png" width="30" height="30"></a></li>
             </ol>
-            <li>Carnes</li>
+            <li class="carne">Carnes</li>
             <ol>
-                <li>Pollo</li>
-                <li>Carne molida</li>
+                <li class="elemento">Pollo <a href="https://www.kiwilimon.com/receta/sopas/como-hacer-caldo-de-pollo"><img src="./imagenes/pollo.png" width="30" height="30"></a></li>
+                <li class="elemento">Carne molida <a href="https://www.recetasgratis.net/receta-de-carne-molida-con-papas-42329.html"><img src="./imagenes/carnemolida.png" width="30" height="30"></a></li>
             </ol>
-            <li>Verduras</li>
+            <li class="verdura">Verduras</li>
             <ol>
-                <li>Limón</li>
-                <li><a href="https://www.philips.com.mx/c-m-ho/philips-chef/recipe-overview-page/starter-snacks/carrot-and-coriander-soup">Zanahoria</a></li>
+                <li class="elemento">Limón <a href="https://www.nestlecocina.es/ingredientes/recetas-con-limon"><img src="./imagenes/limon.png" width="30" height="30"></a></li>
+                <li class="elemento"><a href="https://www.philips.com.mx/c-m-ho/philips-chef/recipe-overview-page/starter-snacks/carrot-and-coriander-soup">Zanahoria <img src="./imagenes/zanahoria.png" width="30" height="30"></a></li>
             </ol>
         </ul>
         <p>Creado con amor</p>
+        <table>
+            <tr>
+                <td></td>
+                <td style="font-weight: bold;">Columna 1</td>
+                <td style="font-weight: bold;">Columna 2</td>
+                <td style="font-weight: bold;">Columna 3</td>
+            </tr>
+            <tr>
+                <td style="font-weight: bold;">Fila 1</td>
+                <td>Manzana</td>
+                <td>Plátano</td>
+            </tr>
+            <tr>
+                <td style="font-weight: bold;">Fila 2</td>
+                <td></td>
+                <td>Pollo</td>
+                <td>Carne Molida</td>
+            </tr>
+            <tr>
+                <td style="font-weight: bold;">Fila 3</td>
+                <td>Limón</td>
+                <td></td>
+                <td>Zanahoria</td>
+            </tr>
+        </table>
     </body>
 </html>

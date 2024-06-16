@@ -1,0 +1,14 @@
+h2 ~ p 
+{
+    color: red;
+}
+
+.hijodirecto > p
+{
+    color: blue;
+}
+
+div p 
+{
+    color: purple;
+}

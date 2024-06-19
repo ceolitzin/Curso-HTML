@@ -1,0 +1,64 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html
+{
+    font-size: 62.5%;
+}
+
+body
+{
+    font-size: 1.6rem;
+}
+
+.container
+{
+    display: flex;
+    height: 900px;
+    flex-direction: column;
+    width: 30%;
+    background-color: rgb(129, 34, 50);
+}
+
+.box
+{
+    height: 30rem;
+    width: 35rem;
+    border-radius: 10px;
+    margin: 10px;
+    color: transparent;
+}
+
+.box1
+{
+    background-color: red;
+}
+
+.box2
+{
+    background-color: aqua;
+}
+
+.box3
+{
+    background-color: blueviolet;
+}
+
+.box4
+{
+    background-color: burlywood;
+}
+
+.box5
+{
+    background-color: chocolate;
+}
+
+.box6
+{
+    background-color: green;
+}

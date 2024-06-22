@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge 06</title>
+</head>
+<body>
+    <script>
+        let randomNumber = Math.random();
+        console.log(randomNumber);
+        let result = '';
+        const guess = 'Tails';
+
+        if (randomNumber < 0.5) {
+            result = 'Heads';
+            console.log('Heads');
+        } else {
+            result = 'Tails';
+            console.log('Tails');
+        }
+
+        const winOrlose = guess === result ? 'You win!' : 'You Lose';
+        console.log(winOrlose)
+
+    </script>
+</body>
+</html>

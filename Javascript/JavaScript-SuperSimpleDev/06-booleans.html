@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booleans</title>
+</head>
+<body>
+
+    <head>
+        <title>Booleans</title>
+    </head>
+
+    <script>
+        true
+        false
+
+        console.log(3 < 5);
+        console.log(3 > 5 - 5);
+        console.log(5 === '5')
+
+        if (false) {
+            console.log('Hello');
+        } else {
+            console.log('else');
+        }
+
+        const age = 10;
+
+        if (age >= 16) {
+            console.log('You can drive')
+        } else if (age >= 14) {
+            console.log('Almost there')
+        } else {
+            console.log('You can not drive')
+        }
+
+        const result = 5>3 ? 'truthy' : 'falsy' /*Shortcuts to if statement*/
+        console.log(result);
+
+        false && console.log('hello')
+        5>3 && console.log('puerca')
+
+        const message = 5 && 'hello';
+        console.log(message);
+
+        const currency = false || 'USD';
+        console.log(currency)
+
+
+
+    </script>
+</body>
+</html>

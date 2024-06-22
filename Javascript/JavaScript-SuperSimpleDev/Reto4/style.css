@@ -1,0 +1,13 @@
+.Add{
+    background-color: yellow;
+    border: 2px solid black;
+    height: 40px;
+    width: 90px;
+}
+
+.Buy{
+    background-color: orange;
+    border: 2px solid black;
+    height: 40px;
+    width: 90px;
+}

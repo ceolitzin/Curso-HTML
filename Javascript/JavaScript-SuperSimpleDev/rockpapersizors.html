@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+</head>
+<body>
+    <h2>Rock, Paper & Scissors</h2>
+
+    <button onclick="
+        const rock = 1;
+        computermove = getRandomInteger(1, 4)
+        if (computermove === 1) {
+            console.log('Rock')
+        } else if ( computermove === 2) {
+            console.log('Paper')
+        } else {
+            console.log('Scissors')
+        }
+
+        if (computermove === rock) {
+            alert('Tie!');
+        } else if (computermove === 2) {
+            alert('Paper covers rock, You Lose!')
+        } else {
+            alert('Rock breaks Scissors, You Win!!')
+        }
+
+    ">Rock</button>
+
+    <button onclick="
+        const paper = 2;
+        computermove = getRandomInteger(1, 4)
+        if (computermove === 1) {
+            console.log('Rock')
+        } else if ( computermove === 2) {
+            console.log('Paper')
+        } else {
+            console.log('Scissors')
+        }
+
+        if (computermove === paper) {
+            alert('Tie!');
+        } else if (computermove === 1) {
+            alert('Paper covers rock, You Win!!')
+        } else {
+            alert('Scissors cuts paper, You Lose!')
+        }
+
+    ">Paper</button>
+
+    <button onclick="
+        const scissor = 3;
+        computermove = getRandomInteger(1, 4)
+        if (computermove === 1) {
+            console.log('Rock')
+        } else if ( computermove === 2) {
+            console.log('Paper')
+        } else {
+            console.log('Scissors')
+        }
+
+        if (computermove === scissor) {
+            alert('Tie!');
+        } else if (computermove === 1) {
+            alert('Rock breaks Scissors, You Lose!!')
+        } else {
+            alert('Scissors cuts paper, You Win!!')
+        }
+    ">Scissors</button>
+
+<script>
+
+const getRandomInteger = (min, max) => {
+            min = Math.ceil(min)
+            max = Math.floor(max)
+
+    return Math.floor(Math.random() * (max - min)) + min
+}
+
+
+</script>
+</body>
+</html>
